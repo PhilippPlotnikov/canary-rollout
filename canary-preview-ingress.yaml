@@ -13,7 +13,7 @@ spec:
       paths:
       - path: /
         pathType: Exact
-        defaultBackend:
+        backend:
           service:
             name: canary-demo-preview
             port:
